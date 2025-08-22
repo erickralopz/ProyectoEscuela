@@ -17,7 +17,8 @@ public class Principal {
 		Alumnos alumno;
 		
 		LogicaMetodos imp = new LogicaMetodos();
-		
+		// se agrego esta linea de codigo
+		System.out.println("HOLA MUNDO " +10);
 		do {
 			System.out.println("MENU PRINCIPAL");
 			System.out.println("1---ALTA");
